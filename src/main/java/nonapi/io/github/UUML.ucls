@@ -1,0 +1,2932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="nonapi.io.github.classgraph.classloaderhandler.ClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/ClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3113" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.ParentLastDelegationOrderTestClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/ParentLastDelegationOrderTestClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="6823" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="nonapi.io.github.classgraph.classloaderhandler.URLClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/URLClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6609" y="918"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="nonapi.io.github.classgraph.classloaderhandler.EquinoxClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/EquinoxClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="457" x="5877" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="nonapi.io.github.classgraph.classloaderhandler.TomcatWebappClassLoaderBaseHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/TomcatWebappClassLoaderBaseHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="388" x="1455" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="nonapi.io.github.classgraph.classloaderhandler.WeblogicClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/WeblogicClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="3167" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="nonapi.io.github.classgraph.classloaderhandler.FallbackClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/FallbackClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="1027" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="nonapi.io.github.classgraph.classloaderhandler.FelixClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/FelixClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="441" x="4968" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.EquinoxContextFinderClassLoaderHandler" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/EquinoxContextFinderClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="57" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.SpringBootRestartClassLoaderHandler" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/SpringBootRestartClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="5449" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.PlexusClassWorldsClassRealmClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/PlexusClassWorldsClassRealmClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="388" x="6374" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="nonapi.io.github.classgraph.classloaderhandler.AntClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/AntClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="1883" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.ClassLoaderHandlerRegistry.ClassLoaderHandlerRegistryEntry" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/ClassLoaderHandlerRegistry.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="388" x="7679" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="nonapi.io.github.classgraph.classloaderhandler.JBossClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/JBossClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="477" x="3595" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="nonapi.io.github.classgraph.classloaderhandler.ClassLoaderHandlerRegistry" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/ClassLoaderHandlerRegistry.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="268" x="4540" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="nonapi.io.github.classgraph.classloaderhandler.JPMSClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/JPMSClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="2311" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.WebsphereTraditionalClassLoaderHandler" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/WebsphereTraditionalClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="4112" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="nonapi.io.github.classgraph.classloaderhandler.QuarkusClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/QuarkusClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="502" x="485" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="nonapi.io.github.classgraph.classloaderhandler.UnoOneJarClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/UnoOneJarClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="2739" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" 
+    name="nonapi.io.github.classgraph.classloaderhandler.WebsphereLibertyClassLoaderHandler" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/WebsphereLibertyClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="388" x="7251" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="nonapi.io.github.classgraph.classloaderhandler.OSGiDefaultClassLoaderHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classloaderhandler/OSGiDefaultClassLoaderHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="388" x="4540" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="nonapi.io.github.classgraph.classpath.ClasspathOrder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/ClasspathOrder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1968" y="935"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="nonapi.io.github.classgraph.classpath.CallStackReader.CallerResolver" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/CallStackReader.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3466" y="1492"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="nonapi.io.github.classgraph.classpath.ClassLoaderOrder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/ClassLoaderOrder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2744" y="906"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="nonapi.io.github.classgraph.classpath.SystemJarFinder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/SystemJarFinder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2089" y="1554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="nonapi.io.github.classgraph.classpath.ClassLoaderFinder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/ClassLoaderFinder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2926" y="1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" 
+    name="nonapi.io.github.classgraph.classpath.ClasspathOrder.ClasspathElementAndClassLoader" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/ClasspathOrder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1572" y="938"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="nonapi.io.github.classgraph.classpath.CallStackReader" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/CallStackReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3148" y="1460"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="nonapi.io.github.classgraph.classpath.ModuleFinder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/ModuleFinder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2534" y="1522"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="nonapi.io.github.classgraph.classpath.ClasspathFinder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/classpath/ClasspathFinder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2489" y="1186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="nonapi.io.github.classgraph.concurrency.AutoCloseableExecutorService" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/AutoCloseableExecutorService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3608" y="2883"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="nonapi.io.github.classgraph.concurrency.SimpleThreadFactory" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/SimpleThreadFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3518" y="2564"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="nonapi.io.github.classgraph.concurrency.SingletonMap.NullSingletonException" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/SingletonMap.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4325" y="2846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="34" language="java" name="nonapi.io.github.classgraph.concurrency.WorkQueue.WorkUnitProcessor" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/WorkQueue.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4314" y="2090"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="35" language="java" name="nonapi.io.github.classgraph.concurrency.InterruptionChecker" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/InterruptionChecker.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3836" y="2600"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="nonapi.io.github.classgraph.concurrency.SingletonMap.SingletonHolder" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/SingletonMap.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4735" y="2865"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="nonapi.io.github.classgraph.concurrency.WorkQueue" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/WorkQueue.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4325" y="2308"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="nonapi.io.github.classgraph.concurrency.SingletonMap" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/SingletonMap.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4525" y="2900"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="nonapi.io.github.classgraph.concurrency.WorkQueue.WorkUnitWrapper" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/concurrency/WorkQueue.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4705" y="2294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="nonapi.io.github.classgraph.fastzipfilereader.LogicalZipFile" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fastzipfilereader/LogicalZipFile.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2325" y="2405"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="nonapi.io.github.classgraph.fastzipfilereader.PhysicalZipFile" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fastzipfilereader/PhysicalZipFile.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3203" y="3121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" 
+    name="nonapi.io.github.classgraph.fastzipfilereader.NestedJarHandler.RecyclableInflater" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fastzipfilereader/NestedJarHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4010" y="3238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="nonapi.io.github.classgraph.fastzipfilereader.ZipFileSlice" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fastzipfilereader/ZipFileSlice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2760" y="1914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="nonapi.io.github.classgraph.fastzipfilereader.NestedJarHandler" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fastzipfilereader/NestedJarHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3684" y="3232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="nonapi.io.github.classgraph.fastzipfilereader.FastZipEntry" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fastzipfilereader/FastZipEntry.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2702" y="2521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="nonapi.io.github.classgraph.fileslice.reader.RandomAccessArrayReader" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/reader/RandomAccessArrayReader.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1777" y="3517"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="nonapi.io.github.classgraph.fileslice.reader.RandomAccessFileChannelReader" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/reader/RandomAccessFileChannelReader.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2081" y="3479"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="48" language="java" name="nonapi.io.github.classgraph.fileslice.reader.RandomAccessReader" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/reader/RandomAccessReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2269" y="3003"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="49" language="java" name="nonapi.io.github.classgraph.fileslice.reader.ClassfileReader" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/reader/ClassfileReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1481" y="3618"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="nonapi.io.github.classgraph.fileslice.reader.RandomAccessByteBufferReader" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/reader/RandomAccessByteBufferReader.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2390" y="3443"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="nonapi.io.github.classgraph.fileslice.reader.SequentialReader" 
+    project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/reader/SequentialReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1328" y="3019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="52" language="java" name="nonapi.io.github.classgraph.fileslice.PathSlice" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/PathSlice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2537" y="4255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="nonapi.io.github.classgraph.fileslice.ArraySlice" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/ArraySlice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2912" y="4188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="nonapi.io.github.classgraph.fileslice.Slice" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/Slice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2889" y="3666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="nonapi.io.github.classgraph.fileslice.FileSlice" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/fileslice/FileSlice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3335" y="4273"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="nonapi.io.github.classgraph.json.FieldTypeInfo" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/FieldTypeInfo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6694" y="3698"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="57" language="java" name="nonapi.io.github.classgraph.json.FieldTypeInfo.PrimitiveType" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/FieldTypeInfo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7009" y="3713"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="58" language="java" name="nonapi.io.github.classgraph.json.ReferenceEqualityKey" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/ReferenceEqualityKey.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6269" y="3449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="nonapi.io.github.classgraph.json.JSONObject" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONObject.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6408" y="2817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <annotation id="60" language="java" name="nonapi.io.github.classgraph.json.Id" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/Id.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7012" y="3409"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </annotation>  
+  <class id="61" language="java" name="nonapi.io.github.classgraph.json.JSONUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6148" y="4408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="nonapi.io.github.classgraph.json.JSONParser" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONParser.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5729" y="2640"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="nonapi.io.github.classgraph.json.JSONSerializer" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONSerializer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6074" y="3127"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="nonapi.io.github.classgraph.json.JSONReference" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONReference.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5561" y="3640"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="nonapi.io.github.classgraph.json.ClassFieldCache.NoConstructor" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/ClassFieldCache.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6554" y="4045"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="nonapi.io.github.classgraph.json.TypeResolutions" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/TypeResolutions.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7452" y="3735"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="nonapi.io.github.classgraph.json.ClassFields" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/ClassFields.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6662" y="3433"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="nonapi.io.github.classgraph.json.JSONDeserializer" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONDeserializer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6527" y="2363"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="nonapi.io.github.classgraph.json.ClassFieldCache" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/ClassFieldCache.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6254" y="4008"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="nonapi.io.github.classgraph.json.JSONDeserializer.ObjectInstantiation" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONDeserializer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6036" y="2369"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="nonapi.io.github.classgraph.json.JSONArray" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/JSONArray.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5671" y="3424"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="nonapi.io.github.classgraph.json.ParameterizedTypeImpl" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/json/ParameterizedTypeImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7289" y="4267"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="73" language="java" name="nonapi.io.github.classgraph.recycler.Resettable" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/recycler/Resettable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4330" y="3264"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="74" language="java" name="nonapi.io.github.classgraph.recycler.RecycleOnClose" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/recycler/RecycleOnClose.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4246" y="3914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="nonapi.io.github.classgraph.recycler.Recycler" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/recycler/Recycler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4240" y="3656"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="76" language="java" name="nonapi.io.github.classgraph.scanspec.AcceptReject.AcceptRejectLeafname" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/scanspec/AcceptReject.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5482" y="1847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="77" language="java" name="nonapi.io.github.classgraph.scanspec.AcceptReject.AcceptRejectPrefix" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/scanspec/AcceptReject.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4988" y="1995"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="78" language="java" name="nonapi.io.github.classgraph.scanspec.AcceptReject" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/scanspec/AcceptReject.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5313" y="2355"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="79" language="java" name="nonapi.io.github.classgraph.scanspec.ScanSpec" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/scanspec/ScanSpec.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5478" y="1159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="80" language="java" name="nonapi.io.github.classgraph.scanspec.ScanSpec.ScanSpecPathMatch" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/scanspec/ScanSpec.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5838" y="1222"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="81" language="java" name="nonapi.io.github.classgraph.scanspec.AcceptReject.AcceptRejectWholeString" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/scanspec/AcceptReject.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5836" y="1840"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="nonapi.io.github.classgraph.types.ParseException" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/types/ParseException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4926" y="3808"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="nonapi.io.github.classgraph.types.TypeUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/types/TypeUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5193" y="3642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="84" language="java" name="nonapi.io.github.classgraph.types.Parser" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/types/Parser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5440" y="4201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="85" language="java" name="nonapi.io.github.classgraph.types.TypeUtils.ModifierType" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/types/TypeUtils.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4916" y="3590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="86" language="java" name="nonapi.io.github.classgraph.utils.FileUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/FileUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4377" y="951"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="87" language="java" name="nonapi.io.github.classgraph.utils.CollectionUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/CollectionUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1530" y="2039"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="88" language="java" name="nonapi.io.github.classgraph.utils.JarUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/JarUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1055" y="1393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="89" language="java" name="nonapi.io.github.classgraph.utils.Join" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/Join.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2008" y="2255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="90" language="java" name="nonapi.io.github.classgraph.utils.StringUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/StringUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1654" y="3005"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="91" language="java" name="nonapi.io.github.classgraph.utils.LogNode" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/LogNode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4745" y="982"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="92" language="java" name="nonapi.io.github.classgraph.utils.ReflectionUtils" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/ReflectionUtils.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3859" y="853"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="93" language="java" name="nonapi.io.github.classgraph.utils.VersionFinder.OperatingSystem" 
+    project="ClassGraph" file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/VersionFinder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1093" y="2126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="94" language="java" name="nonapi.io.github.classgraph.utils.FastPathResolver" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/FastPathResolver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3585" y="1823"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="95" language="java" name="nonapi.io.github.classgraph.utils.VersionFinder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/VersionFinder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="785" y="2085"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="96" language="java" name="nonapi.io.github.classgraph.utils.URLPathEncoder" project="ClassGraph" 
+    file="/ClassGraph/src/main/java/nonapi/io/github/classgraph/utils/URLPathEncoder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1088" y="1752"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="97">    
+    <bendpoint x="5340" y="3056"/>    
+    <bendpoint x="5340" y="3357"/>    
+    <bendpoint x="5340" y="3550"/>    
+    <bendpoint x="5340" y="3887"/>    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <nesting id="100">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="81"/>    
+    <end type="TARGET" refId="78"/>  
+  </generalization>  
+  <realization id="102">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <dependency id="103">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="105">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="91"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="107">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="108">    
+    <end type="SOURCE" refId="91" navigable="false">      
+      <attribute id="109" name="parent">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="110" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="112" name="jarAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="113" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="114">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="115">    
+    <end type="SOURCE" refId="95"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <realization id="116">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="73"/>  
+  </realization>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="82"/>  
+  </dependency>  
+  <association id="118">    
+    <bendpoint x="5744" y="1622"/>    
+    <bendpoint x="5784" y="1704"/>    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="119" name="classAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="120" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="121">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="122" name="log">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="123" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="124">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <dependency id="125">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="126">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <nesting id="128">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="80"/>  
+  </nesting>  
+  <dependency id="129">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="76"/>  
+  </dependency>  
+  <nesting id="130">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="57"/>  
+  </nesting>  
+  <dependency id="131">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="76"/>  
+  </dependency>  
+  <nesting id="132">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="81"/>  
+  </nesting>  
+  <association id="133">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="134" name="workUnits">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="135" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="136">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="137">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="138" name="parentSlice">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </attribute>      
+      <multiplicity id="139" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="140">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="141">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <association id="142">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="143" name="inflaterRecycler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="144" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="75" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="145">    
+    <bendpoint x="6930" y="3550"/>    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="146">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <association id="147">    
+    <bendpoint x="6437" y="3550"/>    
+    <end type="SOURCE" refId="69" navigable="false">      
+      <attribute id="148" name="classToClassFields">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="149" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="150">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="33"/>  
+  </nesting>  
+  <dependency id="151">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="93"/>  
+  </dependency>  
+  <dependency id="152">    
+    <bendpoint x="6437" y="2616"/>    
+    <bendpoint x="6437" y="2863"/>    
+    <bendpoint x="6437" y="3056"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <association id="153">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="154" name="classpathElementResourcePathAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="155" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="156">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="157" name="classPackageAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="158" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="159">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="160">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <nesting id="161">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="34"/>  
+  </nesting>  
+  <dependency id="162">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="90"/>  
+  </dependency>  
+  <dependency id="163">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <dependency id="164">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="165">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="166">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="47"/>  
+  </dependency>  
+  <realization id="167">    
+    <bendpoint x="3648" y="459"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="168">    
+    <bendpoint x="4789" y="459"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="169">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="170">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <nesting id="171">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="85"/>  
+  </nesting>  
+  <dependency id="172">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="173">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="174">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="175">    
+    <bendpoint x="6498" y="3887"/>    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="176">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="177">    
+    <bendpoint x="6834" y="459"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="178">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <realization id="179">    
+    <bendpoint x="2307" y="459"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="180">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <association id="181">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="182" name="packagePrefixAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="183" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="77" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="184">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="185">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="186">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="71"/>  
+  </dependency>  
+  <generalization id="187">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <association id="188">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="189" name="classpathOrder">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="190" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="191">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <dependency id="192">    
+    <end type="SOURCE" refId="96"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <dependency id="193">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="33"/>  
+  </dependency>  
+  <dependency id="194">    
+    <bendpoint x="6022" y="3357"/>    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="58"/>  
+  </dependency>  
+  <generalization id="195">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="43"/>  
+  </generalization>  
+  <association id="196">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="197" name="moduleFinder">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="198" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="199">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="200">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="201">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="202">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="203">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="204">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="205">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="206">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <association id="207">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="208" name="parentZipFileSlice">        
+        <position height="0" width="0" x="-222" y="-435"/>      
+      </attribute>      
+      <multiplicity id="209" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-222" y="-435"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="210">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <association id="211">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="212" name="randomAccessReader">        
+        <position height="18" width="117" x="2069" y="3090"/>      
+      </attribute>      
+      <multiplicity id="213" minimum="0" maximum="1">        
+        <position height="0" width="0" x="116" y="58"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="214">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="84"/>  
+  </generalization>  
+  <dependency id="215">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="216">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="217">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="218">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="219" name="interruptionChecker">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="220" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="221">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="82"/>  
+  </dependency>  
+  <dependency id="222">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="223">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="224" name="slice">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </attribute>      
+      <multiplicity id="225" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="226">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="227">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="228" name="moduleAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="229" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="230">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="231" name="slice">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </attribute>      
+      <multiplicity id="232" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="233">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="234">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="235" name="scanSpec">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="236" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="237">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="238">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="239">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="240" name="interruptionChecker">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="241" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="242">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="45"/>  
+  </dependency>  
+  <dependency id="243">    
+    <bendpoint x="6792" y="194"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="244">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="245">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <association id="246">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="247" name="zipFileSliceToLogicalZipFileMap">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="248" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="249">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="250">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="251">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="252">    
+    <bendpoint x="6395" y="3357"/>    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="56"/>  
+  </dependency>  
+  <dependency id="253">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="254">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <nesting id="255">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="76"/>  
+  </nesting>  
+  <dependency id="256">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="257">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="59"/>  
+  </dependency>  
+  <dependency id="258">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="259">    
+    <bendpoint x="7155" y="2616"/>    
+    <bendpoint x="7155" y="2863"/>    
+    <bendpoint x="7155" y="3056"/>    
+    <bendpoint x="7155" y="3357"/>    
+    <bendpoint x="7155" y="3550"/>    
+    <bendpoint x="7155" y="3887"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="72"/>  
+  </dependency>  
+  <realization id="260">    
+    <bendpoint x="4121" y="459"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="261">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="262" name="openSlices">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </attribute>      
+      <multiplicity id="263" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="264">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="53"/>  
+  </dependency>  
+  <dependency id="265">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="266">    
+    <bendpoint x="6395" y="2616"/>    
+    <bendpoint x="6395" y="2863"/>    
+    <bendpoint x="6395" y="3056"/>    
+    <bendpoint x="6374" y="3357"/>    
+    <bendpoint x="6232" y="3550"/>    
+    <bendpoint x="6030" y="3887"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="267">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="268">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <association id="269">    
+    <end type="SOURCE" refId="74" navigable="false">      
+      <attribute id="270" name="recycler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="271" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="75" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="272">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <nesting id="273">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="65"/>  
+  </nesting>  
+  <realization id="274">    
+    <bendpoint x="5252" y="459"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="275">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="276">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="277" name="fieldOrder">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="278" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="279">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="62"/>  
+  </dependency>  
+  <dependency id="280">    
+    <bendpoint x="6908" y="2616"/>    
+    <bendpoint x="6908" y="2863"/>    
+    <bendpoint x="6908" y="3056"/>    
+    <bendpoint x="6908" y="3357"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="56"/>  
+  </dependency>  
+  <dependency id="281">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="282">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="283">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="89"/>  
+  </dependency>  
+  <dependency id="284">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="44"/>  
+  </dependency>  
+  <dependency id="285">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="286">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="287">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="64"/>  
+  </dependency>  
+  <dependency id="288">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="289">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="290">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="291">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="292">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="293">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="294" name="FALLBACK_HANDLER">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="295" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="296">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <dependency id="297">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="44"/>  
+  </dependency>  
+  <dependency id="298">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="299">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="300" name="classPackagePathAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="301" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="302">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="303">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="304">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="47"/>  
+  </dependency>  
+  <dependency id="305">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="306">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="307">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <nesting id="308">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="23"/>  
+  </nesting>  
+  <dependency id="309">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="78"/>  
+  </dependency>  
+  <dependency id="310">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="53"/>  
+  </dependency>  
+  <association id="311">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="312" name="physicalZipFile">        
+        <position height="0" width="0" x="-22" y="248"/>      
+      </attribute>      
+      <multiplicity id="313" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-22" y="248"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="314">    
+    <bendpoint x="6374" y="3056"/>    
+    <bendpoint x="6332" y="3357"/>    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="58"/>  
+  </dependency>  
+  <nesting id="315">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="77"/>  
+  </nesting>  
+  <dependency id="316">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="84"/>  
+  </dependency>  
+  <dependency id="317">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="318">    
+    <bendpoint x="6001" y="3357"/>    
+    <bendpoint x="6001" y="3550"/>    
+    <bendpoint x="6001" y="3887"/>    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <association id="319">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="320" name="workUnitProcessor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="321" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="322">    
+    <bendpoint x="2792" y="459"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <nesting id="323">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="27"/>  
+  </nesting>  
+  <dependency id="324">    
+    <bendpoint x="6353" y="3357"/>    
+    <bendpoint x="6353" y="3550"/>    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="325">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="326">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <dependency id="327">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="90"/>  
+  </dependency>  
+  <dependency id="328">    
+    <bendpoint x="5319" y="2863"/>    
+    <bendpoint x="5319" y="3056"/>    
+    <bendpoint x="5319" y="3357"/>    
+    <bendpoint x="5319" y="3550"/>    
+    <bendpoint x="5319" y="3887"/>    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="329">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="330">    
+    <end type="SOURCE" refId="84"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <realization id="331">    
+    <bendpoint x="4335" y="459"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="332">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <realization id="333">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <association id="334">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="335" name="pathPrefixAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="336" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="77" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="337">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="90"/>  
+  </dependency>  
+  <dependency id="338">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="339">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="340">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="341">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="342">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="343">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="59"/>  
+  </dependency>  
+  <dependency id="344">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="345">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="346">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="347">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="348">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="349" name="parentLogicalZipFile">        
+        <position height="0" width="0" x="25" y="173"/>      
+      </attribute>      
+      <multiplicity id="350" minimum="0" maximum="1">        
+        <position height="0" width="0" x="25" y="173"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="351">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="352">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="353">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="354">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <association id="355">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="356" name="nestedPathToLogicalZipFileAndPackageRootMap">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="357" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="358">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="359" name="nestedJarHandler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="360" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="361">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="50"/>  
+  </dependency>  
+  <dependency id="362">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="53"/>  
+  </dependency>  
+  <dependency id="363">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="364">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="365">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="366">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="367" name="primitiveType">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="368" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="57" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="369">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <association id="370">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="371" name="fastZipEntryToZipFileSliceMap">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="372" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="373">    
+    <bendpoint x="6416" y="2616"/>    
+    <bendpoint x="6416" y="2863"/>    
+    <bendpoint x="6416" y="3056"/>    
+    <bendpoint x="6416" y="3357"/>    
+    <bendpoint x="6416" y="3550"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="374">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="375">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="44"/>  
+  </dependency>  
+  <realization id="376">    
+    <bendpoint x="2093" y="459"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="377">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <realization id="378">    
+    <bendpoint x="6792" y="459"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="379">    
+    <bendpoint x="7134" y="2616"/>    
+    <bendpoint x="7134" y="2863"/>    
+    <bendpoint x="7134" y="3056"/>    
+    <bendpoint x="7134" y="3357"/>    
+    <bendpoint x="7134" y="3550"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="380">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="381">    
+    <bendpoint x="5980" y="3357"/>    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="64"/>  
+  </dependency>  
+  <realization id="382">    
+    <bendpoint x="2578" y="459"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="383">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="384" name="entries">        
+        <position height="0" width="0" x="-64" y="-400"/>      
+      </attribute>      
+      <multiplicity id="385" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-64" y="-400"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="386">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="42"/>  
+  </nesting>  
+  <dependency id="387">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="388">    
+    <bendpoint x="6458" y="3550"/>    
+    <bendpoint x="6477" y="3887"/>    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="389">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="390">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="391">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="392">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="63"/>  
+  </dependency>  
+  <dependency id="393">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="73"/>  
+  </dependency>  
+  <dependency id="394">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <nesting id="395">    
+    <end type="SOURCE" refId="95"/>    
+    <end type="TARGET" refId="93"/>  
+  </nesting>  
+  <dependency id="396">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="397">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="398">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="399">    
+    <end type="SOURCE" refId="81"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="400">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="401">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="402">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="403">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="404">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="66"/>  
+  </dependency>  
+  <dependency id="405">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="58"/>  
+  </dependency>  
+  <dependency id="406">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="407">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="408">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="409">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="44"/>  
+  </dependency>  
+  <dependency id="410">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="411">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="412">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="413">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="72"/>  
+  </dependency>  
+  <dependency id="414">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="415">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="416">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <realization id="417">    
+    <bendpoint x="3007" y="459"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="418">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <association id="419">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="420" name="moduleRefToModuleReaderProxyRecyclerMap">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="421" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="422">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="423" name="pathAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="424" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="425">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <generalization id="426">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="81"/>  
+  </generalization>  
+  <dependency id="427">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <realization id="428">    
+    <bendpoint x="6813" y="459"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="429">    
+    <bendpoint x="5361" y="3056"/>    
+    <bendpoint x="5361" y="3357"/>    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="64"/>  
+  </dependency>  
+  <dependency id="430">    
+    <end type="SOURCE" refId="96"/>    
+    <end type="TARGET" refId="93"/>  
+  </dependency>  
+  <nesting id="431">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="39"/>  
+  </nesting>  
+  <dependency id="432">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="433">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <realization id="434">    
+    <bendpoint x="3434" y="459"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="435">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="436">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="437">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="438">    
+    <bendpoint x="6001" y="2616"/>    
+    <bendpoint x="6001" y="2863"/>    
+    <bendpoint x="5403" y="3056"/>    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="71"/>  
+  </dependency>  
+  <realization id="439">    
+    <bendpoint x="3863" y="459"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="440">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="441">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="442">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="443">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="87"/>  
+  </dependency>  
+  <dependency id="444">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="52"/>  
+  </dependency>  
+  <association id="445">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="446" name="OS">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="447" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="93" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="448">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="449">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="90"/>  
+  </dependency>  
+  <dependency id="450">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="69"/>  
+  </dependency>  
+  <dependency id="451">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="452">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <dependency id="453">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="454">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="84"/>  
+  </dependency>  
+  <dependency id="455">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="456">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="87"/>  
+  </dependency>  
+  <association id="457">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="458" name="nestedJarHandler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="459" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="460">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="461" name="libOrExtJarAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="462" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="463">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="464" name="slice">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </attribute>      
+      <multiplicity id="465" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-87" y="-16"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="466">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="467">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <generalization id="468">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <association id="469">    
+    <bendpoint x="5736" y="1612"/>    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="470" name="packageAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="471" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="472">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <dependency id="473">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="45"/>  
+  </dependency>  
+  <dependency id="474">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="475">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="94"/>  
+  </dependency>  
+  <realization id="476">    
+    <bendpoint x="4549" y="459"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="477">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="478">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="92"/>  
+  </dependency>  
+  <association id="479">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="480" name="order">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="481" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="482">    
+    <bendpoint x="3221" y="459"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="483">    
+    <bendpoint x="3028" y="1107"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="484">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="485">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="87"/>  
+  </dependency>  
+  <dependency id="486">    
+    <end type="SOURCE" refId="91"/>    
+    <end type="TARGET" refId="95"/>  
+  </dependency>  
+  <dependency id="487">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="55"/>  
+  </dependency>  
+  <dependency id="488">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="82"/>  
+  </dependency>  
+  <dependency id="489">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <nesting id="490">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="36"/>  
+  </nesting>  
+  <dependency id="491">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="87"/>  
+  </dependency>  
+  <dependency id="492">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="493">    
+    <bendpoint x="5401" y="3550"/>    
+    <bendpoint x="5401" y="3887"/>    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="61"/>  
+  </dependency>  
+  <dependency id="494">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <generalization id="495">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="78"/>  
+  </generalization>  
+  <dependency id="496">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="497">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="498">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="499" name="canonicalFileToPhysicalZipFileMap">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="500" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="501">    
+    <bendpoint x="5762" y="1672"/>    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="502" name="classfilePathAcceptReject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="503" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="504">    
+    <end type="SOURCE" refId="91" navigable="false">      
+      <attribute id="505" name="children">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="506" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="507">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="44"/>  
+  </dependency>  
+  <dependency id="508">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <dependency id="509">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="60"/>  
+  </dependency>  
+  <dependency id="510">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <realization id="511">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <dependency id="512">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <realization id="513">    
+    <bendpoint x="5003" y="459"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="514">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="515">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <association id="516">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="517" name="interruptionChecker">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="518" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="519">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <dependency id="520">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <dependency id="521">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <generalization id="522">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <association id="523">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="524" name="scanSpec">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="525" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="526">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="527" name="map">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="528" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="529">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <nesting id="530">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="70"/>  
+  </nesting>  
+  <dependency id="531">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="532">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <association id="533">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="534" name="CLASS_LOADER_HANDLERS">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="535" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="536">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="537">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="87"/>  
+  </dependency>  
+  <dependency id="538">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="86"/>  
+  </dependency>  
+  <dependency id="539">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="540">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="48"/>  
+  </dependency>  
+  <dependency id="541">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="542">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="54"/>  
+  </dependency>  
+  <dependency id="543">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <association id="544">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="545" name="fieldNameToFieldTypeInfo">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="546" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="547">    
+    <bendpoint x="5382" y="2863"/>    
+    <bendpoint x="5382" y="3056"/>    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="71"/>  
+  </dependency>  
+  <association id="548">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="549" name="classLoaderToClassLoaderHandlerRegistryEntry">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="550" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="551">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="552">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="553">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="88"/>  
+  </dependency>  
+  <dependency id="554">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="91"/>  
+  </dependency>  
+  <dependency id="555">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="67"/>  
+  </dependency>  
+  <dependency id="556">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="79"/>  
+  </dependency>  
+  <dependency id="557">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
