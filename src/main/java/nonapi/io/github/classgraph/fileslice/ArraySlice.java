@@ -132,7 +132,7 @@ public class ArraySlice extends Slice {
     }
 
     
-    public ReaderInterface ArrayReader() {
+    public ReaderInterface ReaderInterface() {
         return new ArrayReader(arr, (int) sliceStartPos, (int) sliceLength);
     }
 
@@ -145,11 +145,6 @@ public class ArraySlice extends Slice {
     public int hashCode() {
         return super.hashCode();
     }
-
-	@Override
-	public Reader Reader() {
-		return null;
-	}
 
 	
 }

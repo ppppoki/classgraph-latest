@@ -115,7 +115,7 @@ public class ClassfileReader implements ReaderInterface, SequentialReader, Close
                 classfileLengthHint = arr.length;
             } else {
                 // Otherwise this is a FileSlice -- need to fetch chunks of bytes using a random access reader
-                reader = slice.Reader();
+                reader = slice.ReaderInterface();
                 arr = new byte[INITIAL_BUF_SIZE];
                 classfileLengthHint = (int) Math.min(slice.sliceLength, FileUtils.MAX_BUFFER_SIZE);
             }
