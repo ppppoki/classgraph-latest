@@ -41,7 +41,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import io.github.classgraph.ClassGraph;
 import nonapi.io.github.classgraph.fastzipfilereader.NestedJarHandler;
 import nonapi.io.github.classgraph.fileslice.reader.FileChannelReader;
-
+import nonapi.io.github.classgraph.fileslice.reader.ReaderInterface;
 import nonapi.io.github.classgraph.utils.FileUtils;
 
 /** A {@link Path} slice. */
@@ -168,7 +168,7 @@ public class PathSlice extends Slice implements Closeable {
      *
      * @return the random access reader
      */
-    public FileChannelReader FileChannelReader() {
+    public ReaderInterface ReaderInterface() {
         // Return a Reader that uses the FileChannel
         return new FileChannelReader(fileChannel, sliceStartPos, sliceLength);
     }
@@ -195,7 +195,7 @@ public class PathSlice extends Slice implements Closeable {
             if (sliceLength > FileUtils.MAX_BUFFER_SIZE) {
                 throw new IOException("File is larger than 2GB");
             }
-            final FileChannelReader reader = FileChannelReader();
+            final ReaderInterface reader = ReaderInterface();
             final byte[] content = new byte[(int) sliceLength];
             if (reader.read(0, content, 0, content.length) < content.length) {
                 // Should not happen
@@ -260,9 +260,4 @@ public class PathSlice extends Slice implements Closeable {
             nestedJarHandler.markSliceAsClosed(this);
         }
     }
-
-	@Override
-	public Reader Reader() {
-		return null;
-	}
 }

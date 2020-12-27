@@ -34,6 +34,7 @@ import java.util.Arrays;
 
 import nonapi.io.github.classgraph.fastzipfilereader.NestedJarHandler;
 import nonapi.io.github.classgraph.fileslice.reader.ArrayReader;
+import nonapi.io.github.classgraph.fileslice.reader.ReaderInterface;
 
 
 /** A byte array slice. */
@@ -131,7 +132,7 @@ public class ArraySlice extends Slice {
     }
 
     
-    public ArrayReader ArrayReader() {
+    public ReaderInterface ArrayReader() {
         return new ArrayReader(arr, (int) sliceStartPos, (int) sliceLength);
     }
 

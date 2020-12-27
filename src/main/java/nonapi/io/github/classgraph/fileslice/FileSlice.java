@@ -43,7 +43,7 @@ import io.github.classgraph.ClassGraph;
 import nonapi.io.github.classgraph.fastzipfilereader.NestedJarHandler;
 import nonapi.io.github.classgraph.fileslice.reader.ByteBufferReader;
 import nonapi.io.github.classgraph.fileslice.reader.FileChannelReader;
-
+import nonapi.io.github.classgraph.fileslice.reader.ReaderInterface;
 import nonapi.io.github.classgraph.utils.FileUtils;
 import nonapi.io.github.classgraph.utils.LogNode;
 
@@ -206,19 +206,18 @@ public class FileSlice extends Slice {
      *
      * @return the random access reader
      */
-	public Reader Reader() {	
-		return null;
-	}
-    
-    public FileChannelReader FileChannelReader() {       
+    @Override
+    public ReaderInterface ReaderInterface() {
+        if (backingByteBuffer == null) {
             // If file was not mmap'd, return a RandomAccessReader that uses the FileChannel
-            return new FileChannelReader(fileChannel, sliceStartPos, sliceLength);        
+            return new FileChannelReader(fileChannel, sliceStartPos, sliceLength);
+        } else {
+            // If file was mmap'd, return a RandomAccessReader that uses the ByteBuffer
+            return new ByteBufferReader(backingByteBuffer, sliceStartPos, sliceLength);
+        }
     }
     
-    public ByteBufferReader ByteBufferReader() {       
-        	// If file was mmap'd, return a RandomAccessReader that uses the ByteBuffer
-        	return new ByteBufferReader(backingByteBuffer, sliceStartPos, sliceLength);        
-    }
+    
     
     /**
      * Load the slice as a byte array.
@@ -242,7 +241,7 @@ public class FileSlice extends Slice {
             if (sliceLength > FileUtils.MAX_BUFFER_SIZE) {
                 throw new IOException("File is larger than 2GB");
             }
-            final Reader reader = Reader();
+            final ReaderInterface reader = ReaderInterface();
             final byte[] content = new byte[(int) sliceLength];
             if (reader.read(0, content, 0, content.length) < content.length) {
                 // Should not happen
