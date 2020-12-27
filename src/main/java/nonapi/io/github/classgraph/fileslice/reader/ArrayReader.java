@@ -37,7 +37,6 @@ import java.nio.ReadOnlyBufferException;
 import nonapi.io.github.classgraph.utils.StringUtils;
 
 
-
 public class ArrayReader implements ReaderInterface{
     /** The array. */
     private final byte[] arr;

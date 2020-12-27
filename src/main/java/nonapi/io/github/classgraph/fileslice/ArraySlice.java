@@ -130,11 +130,10 @@ public class ArraySlice extends Slice {
         }
     }
 
-    /*
-    @Override
-    public Reader Reader() {
+    
+    public ArrayReader ArrayReader() {
         return new ArrayReader(arr, (int) sliceStartPos, (int) sliceLength);
-    }*/
+    }
 
     @Override
     public boolean equals(final Object o) {
@@ -152,8 +151,4 @@ public class ArraySlice extends Slice {
 	}
 
 	
-	public nonapi.io.github.classgraph.fileslice.reader.FileChannelReader FileChannelReader() {
-		
-		return null;
-	}
 }
