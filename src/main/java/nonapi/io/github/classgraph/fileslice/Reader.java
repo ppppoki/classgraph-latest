@@ -30,18 +30,12 @@ package nonapi.io.github.classgraph.fileslice;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
+
+import nonapi.io.github.classgraph.fileslice.reader.ReaderInterface;
+
 
 /** Interface for random access to values in byte order. */
-public class Reader {
-    public Reader(FileChannel fileChannel, long sliceStartPos, long sliceLength) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Reader(ByteBuffer backingByteBuffer, long sliceStartPos, long sliceLength) {
-		// TODO Auto-generated constructor stub
-	}
-
+public abstract class Reader implements ReaderInterface {
 	/**
      * Read bytes into a {@link ByteBuffer}.
      * 
@@ -76,9 +70,10 @@ public class Reader {
      * @throws IOException
      *             If there was an exception while reading.
      */
-    public static int read(long srcOffset, byte[] dstArr, int dstArrStart, int numBytes) throws IOException {
+    public int read(long srcOffset, byte[] dstArr, int dstArrStart, int numBytes) throws IOException {
 		return 0;
-	}
+	} 
+	
 
     /**
      * Read a byte at a specific offset (without changing the current cursor offset).

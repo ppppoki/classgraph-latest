@@ -38,7 +38,7 @@ import java.nio.ReadOnlyBufferException;
 import nonapi.io.github.classgraph.utils.StringUtils;
 
 
-public class ByteBufferReader {
+public class ByteBufferReader implements ReaderInterface {
     /** The byte buffer. */
     private final ByteBuffer byteBuffer;
 
