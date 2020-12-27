@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 
 /** Interface for random access to values in byte order. */
-public interface RandomAccessReader {
+public interface ReaderInterface {
     
     public int read(long srcOffset, ByteBuffer dstBuf, int dstBufStart, int numBytes) throws IOException;
 
